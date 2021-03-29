@@ -1,0 +1,194 @@
+
+  .container-methode{
+      
+    padding-left: 29px;
+    padding-right: 29px;
+
+  }
+  
+  
+  .methode {
+    display: flex;
+    
+  }
+  @media (max-width: 460px){
+    .methode {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .container,
+  .container02,
+  .container03,
+  .container04,
+  .container05,
+   {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill;
+    height: 250px;
+    position: relative;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    border-radius: 4px;
+    margin: 5px;
+  }
+   
+  .container06{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill;
+    height: 300px;
+    position: relative;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    border-radius: 4px;
+    margin: 5px;
+  }
+ 
+
+  .card,
+  .card02,
+  .card03,
+  .card04,
+  .card05,
+  .card06 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 1px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    cursor: pointer;
+    background: linear-gradient(27deg, rgba(114,105,162,0.9615196420365021) 0%, rgba(3,80,116,1) 100%);
+  }
+  .card div,
+  .card02 div,
+  .card03 div,
+  .card04 div,
+  .card05 div,
+  .card06 div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+  }
+   
+  @media screen and (max-width: 660px){
+    .card div,
+    .card02 div,
+    .card03 div,
+    .card04 div,
+    .card05 div,
+    .card06 div{
+      font-size: 12px;
+    }
+  }
+  .card .back,
+  .card02 .back,
+  .card03 .back,
+  .card04 .back,
+  .card05 .back,
+  .card06 .back {
+    transform: rotateY(180deg);
+    background-color: #ffa500;
+  }
+  .card.flipped,
+  .card02.flipped,
+  .card03.flipped,
+  .card04.flipped,
+  .card05.flipped,
+  .card06.flipped {
+    transform: rotateY(180deg);
+  }
+
+  #clockimg{
+    width: 40%;
+    min-width: 40px;
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #testimg{ 
+    width: 20%;
+    min-width: 10px;
+    max-width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #simulationimg{
+    //width: 10%;
+    min-width: 10px;
+    max-width: 200px;
+    display: block;
+    //margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    
+  }
+
+  #parlerimg{
+    width: 13%;
+    max-width: 13%;
+    min-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #atelierimg{
+    width: 17%;
+    max-width: 17%;
+    min-width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #prepimg{
+    width: 210px;
+    max-width: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+  }
+  .titlecardsimulation{
+    display: block;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .titleprep{
+    display: block;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  h4{
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  .buttonsmethode{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+  }
+
+ 
