@@ -59,10 +59,14 @@
         @include('footer')
     </div>
 
-
+       <!------------------------------------MODALS-------------------------------->
+        @include('modaltest')
 </body>
 
+<!----------------------------SCRIPT API CALENDLY---------------------------------->
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!--------------------------SLIDESHOW SCRIPT--------------------------------------->
 <script type="text/javascript">
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -126,5 +130,6 @@
     });
 
 </script>
+
 
 </html>

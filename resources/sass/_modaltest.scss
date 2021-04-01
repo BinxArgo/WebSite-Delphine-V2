@@ -1,0 +1,63 @@
+/*Modal Background*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*scroll if needed*/
+    backdrop-filter: blur(3px);
+    background-color:  rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    //filter: blur(8px);
+    //-webkit-filter: blur(8px);
+}
+
+/*prevent body scrolling when modal is open*/
+
+
+.modal-content{
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    margin-top: 5%;
+    padding: 20px;
+    padding-top: 10px;
+    width: 25%;
+}
+
+/*close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.textModal01{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+
+.testinfos{
+    //display: flex;
+    //justify-content: center;
+}
+
+.textinfotest01{
+    color: #006998;
+    size: 13px;
+}

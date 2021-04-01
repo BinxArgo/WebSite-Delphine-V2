@@ -26,6 +26,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/_tarifs.scss', 'public/css')
     .sass('resources/sass/_contact.scss', 'public/css')
     .sass('resources/sass/_politiqueConf.scss', 'public/css')
+    .sass('resources/sass/_modaltest.scss', 'public/css')
     
   
 

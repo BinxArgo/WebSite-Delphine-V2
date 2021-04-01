@@ -21,6 +21,7 @@ Route::get('/', function () {
     return view('jobs');
     return view('bio');
     return view('footer');
+    return view('modaltest');
 });
 
 

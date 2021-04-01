@@ -104,7 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\delphine-site-web\resources\js\slideshow.js */"./resources/js/slideshow.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\js\slideshow.js */"./resources/js/slideshow.js");
 
 
 /***/ })

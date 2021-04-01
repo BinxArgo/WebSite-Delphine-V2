@@ -10,7 +10,7 @@
 
             <p>{{__('customlang.title02')}}</p><br>
             
-            <button class="mainbuttonaction" style="margin-right: 10px;">Faire un test gratuit</button>
+            <button id="btnTestGratuit" class="mainbuttonaction" style="margin-right: 10px;">Faire un test gratuit</button>
             <button class="secondarybutton" style="margin-right: 10px;"href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coja-jacques/courstestedelphine?text_color=006998&primary_color=ff6600'});return false;"><a style="text-decoration: none;" >Faire un cours gratuit</a></button>
 
             
