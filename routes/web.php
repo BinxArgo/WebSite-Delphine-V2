@@ -34,6 +34,8 @@ Route::get('/politique-de-confidentialite', function () {
     return view('main');
 });
 
+
+
 Route::get('lang/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();

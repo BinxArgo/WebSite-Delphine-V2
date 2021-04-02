@@ -6,10 +6,12 @@
     <div class="modal-content">
     <span class="close">&times;</span><br><br><br>
         <h2>Teste de positionnement</h2>
-        <p class="textModal01">Teste interactif pour personnaliser votre apprentissage </p>
+        <p class="textModal01">Teste interactif pour personnaliser votre apprentissage </p><br>
         <div class="testinfos">
-            <img src="img\timeicon.png" alt="timeicon">
-            <span class="textinfo01">30 min</span><br>
+            <div class="timeocntainer">
+                <img class="icontime" src="img\timeicon.png" alt="timeicon">
+                <span class="textinfoTime">30 min</span><br>
+            </div><br>
             <img src="img\check.png" alt="checkicon">
             <span class="textinfo01">fonctionnement de la langue</span><br>
             <img src="img\check.png" alt="checkicon">
@@ -17,7 +19,19 @@
             <img src="img\check.png" alt="checkicon">
             <span class="textinfo01">Compréhension écrite</span>
         </div>
-        
+<br><br><br>
+        <div class="formtestContent">
+        <input class="testForm" type="text" class="form__field" placeholder="Prénom" name="prenomTest" required/><br>
+        <input class="testForm" type="text" class="form__field" placeholder="Nom" name="nomTest" required/><br>
+        <input class="testForm" type="email" class="form__field" placeholder="E-mail" name="emailTest" required/><br>
+        <input class="testForm" type="password" class="form__field" placeholder="Mot de passe" name="mdpTest" required/><br>
+        <input class="testForm" type="password" class="form__field" placeholder="Confirmation mot de passe" name="confirmMdpTest" required/><br><br>
+        <input class="testForm" type="text" class="form__field" placeholder="Télephone" name="telTest" required/><br>
+        <input class="testForm" type="text" class="form__field" placeholder="Pays" name="paysTest" required/><br>
+        <input class="testForm" type="text" class="form__field" placeholder="Ville" name="villeTest" required/><br><br><br>
+        <button id="" class="starttestBtn">Commencer</button>
+        </div>        
+        <br><br><br>
     </div>
 
 </div>
