@@ -31,9 +31,14 @@ Route::get('/politique-de-confidentialite', function () {
     return view('header');
     return view('navbarsecond');
     return view('footer');
-    return view('main');
+    
 });
 
+Route::get('/test01', function () {
+    return view('test01');
+    return view('main');
+
+});
 
 
 Route::get('lang/{locale}', function ($locale) {

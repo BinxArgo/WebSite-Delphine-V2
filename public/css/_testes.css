@@ -1,0 +1,91 @@
+/*HEADER AREA FOR ICONS LOGOUT & USER LOG*/
+
+.testheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logout {
+  display: flex;
+  flex-direction: row;
+  height: 15px;
+  align-items: center;
+}
+
+.labellogout {
+  color: #006998;
+}
+
+/*Hide logout label on sm screens*/
+
+@media screen and (max-width: 320px) {
+  #labellogout {
+    display: none;
+  }
+}
+
+.userlogged {
+  display: flex;
+  flex-direction: row;
+  height: 15px;
+  align-items: center;
+}
+
+.labelsaccounts {
+  padding-left: 10px;
+  color: #006998;
+}
+
+.testpresent {
+  padding: 70px;
+  text-align: center;
+}
+
+#testTitle {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.bannertest {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.test-container {
+  padding-left: 100px;
+}
+
+.exo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.optlabel {
+  color: #74929F;
+}
+
+label {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #006998;
+  font-weight: bolder;
+}
+
+.titleexo {
+  color: #006998;
+  text-decoration: underline;
+}
+
+.selects {
+  flex-direction: column;
+  border-color: #FF6600;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-width: 2px;
+}
+

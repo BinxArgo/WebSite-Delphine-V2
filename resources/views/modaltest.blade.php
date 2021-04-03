@@ -32,8 +32,10 @@
         <button id="" class="starttestBtn">Commencer</button>
         </div>        
         <br><br><br>
+        @include('basicfooterlog')
     </div>
-
+    <!-------------Basic Logo Footer---------------> 
+   
 </div>
 
 <script type="text/javascript">
