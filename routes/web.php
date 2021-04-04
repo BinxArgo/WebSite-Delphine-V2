@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//HOMEPAGE & website sections <=====
 Route::get('/', function () {
     return view('accueil');
     return view('header');
@@ -24,7 +24,7 @@ Route::get('/', function () {
     return view('modaltest');
 });
 
-
+//Confidentiality policy page
 Route::get('/politique-de-confidentialite', function () {
 
     return view('politique-de-confidentialite');
@@ -34,16 +34,25 @@ Route::get('/politique-de-confidentialite', function () {
     
 });
 
+//Language level test part one 
 Route::get('/test01', function () {
     return view('test01');
     return view('main');
 
 });
 
+//Language level test part two
+Route::get('/test02', function () {
+    return view('test02');
+    return view('main');
 
+});
+
+//Website Translations route
 Route::get('lang/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();
 });
 
+//Newsltter API route
 Route::post('/newsletter', 'NewsLetterController@store');
