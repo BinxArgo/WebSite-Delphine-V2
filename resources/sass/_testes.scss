@@ -67,6 +67,20 @@
     flex-direction: row;
     align-items: center;
 }
+.exo-container-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: #006998;
+    width: 640px;
+    height: 27px;
+    color: white;
+    justify-content: space-around;
+}
+
+input[type=checkbox]{
+    border-radius: 50%;
+}
 .optlabel{
     color: #74929F;
 }

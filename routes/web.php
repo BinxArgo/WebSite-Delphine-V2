@@ -37,14 +37,14 @@ Route::get('/politique-de-confidentialite', function () {
 //Language level test part one 
 Route::get('/test01', function () {
     return view('test01');
-    return view('main');
+   
 
 });
 
 //Language level test part two
 Route::get('/test02', function () {
     return view('test02');
-    return view('main');
+   
 
 });
 

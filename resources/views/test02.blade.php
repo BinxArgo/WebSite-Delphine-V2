@@ -40,43 +40,83 @@
             <!--------------------------------------------------------------------->
             <!------------------------EXERCICE 01---------------------------------->
             <!--------------------------------------------------------------------->
-            <p class="titleexo">1) Articles: complétez avec 'Un', 'Une', ou 'Des':</p>
+            <p class="titleexo">1) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
             <!--Video embeded UL--->
-            <div id="player"></div>
+            <div id="player01"></div>
             <br><br>
             <!------OPTION 01----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">Un</option>
-                    <option value="un">Une</option>
-                    <option value="un">Des</option>
-                </select>
-                <label for="quest01">Fleur</label>
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 02----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">Un</option>
-                    <option value="un">Une</option>
-                    <option value="un">Des</option>
-                </select>
-                <label for="quest01">habitudes</label>
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 03----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">Un</option>
-                    <option value="un">Une</option>
-                    <option value="un">Des</option>
-                </select>
-                <label for="quest01">Ami</label>
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
-
+            <br>
+            <!------OPTION 04----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br><br><br>
+            <!--------------------------------------------------------------------->
+            <!------------------------EXERCICE 02---------------------------------->
+            <!--------------------------------------------------------------------->
+            <p class="titleexo">2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
+            <!--Video embeded UL--->
+            <div id="player02"></div>
+            <br><br>
+            <!------OPTION 01----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 02----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 03----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 04----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br><br><br>
+            <!--------------------------------------------------------------------->
+            <!------------------------EXERCICE 03
+            <!--------------------------------------------------------------------->
+            <p class="titleexo">3) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
+            <!--Video embeded UL--->
+            <div id="player03"></div>
+            <br><br>
+            <!------OPTION 01----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 02----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 03----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
+            <br>
+            <!------OPTION 04----->
+            <div class="exo-container-checkbox">
+                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+            </div>
 
             <br><br><br>
 
@@ -106,12 +146,13 @@
         var player;
 
         function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
+            //VIDEO 01
+            player = new YT.Player('player01', {
                 height: '390',
                 width: '640',
                 videoId: 'Ssd3FKVOsnw',
                 playerVars: {
-                    autoplay: 1, // Auto-play the video on load
+                    autoplay: 0, // Auto-play the video on load
                     controls: 0, // Show pause/play buttons in player
                     showinfo: 0, // Hide the video title
                     modestbranding: 1, // Hide the Youtube Logo
@@ -120,7 +161,53 @@
                     iv_load_policy: 1, // Hide the Video Annotations
                     start: 32,
                     end: 42,
-                    loop: 1, // Run the video in a loop
+                    loop: 0, // Run the video in a loop
+                    autohide: 1, // Hide video controls when playing
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    //'onStateChange': onPlayerStateChange
+                }
+            });
+            //VIDEO 02
+            player = new YT.Player('player02', {
+                height: '390',
+                width: '640',
+                videoId: 'jDr0JFojEiE',
+                playerVars: {
+                    autoplay: 0, // Auto-play the video on load
+                    controls: 0, // Show pause/play buttons in player
+                    showinfo: 0, // Hide the video title
+                    modestbranding: 1, // Hide the Youtube Logo
+                    fs: 1, // Hide the full screen button
+                    cc_load_policy: 1, // Hide closed captions
+                    iv_load_policy: 1, // Hide the Video Annotations
+                    start: 0,
+                    end: 4,
+                    loop: 0, // Run the video in a loop
+                    autohide: 1, // Hide video controls when playing
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    //'onStateChange': onPlayerStateChange
+                }
+            });
+            //VIDEO 03
+            player = new YT.Player('player03', {
+                height: '390',
+                width: '640',
+                videoId: 'mjXiOEZUcHY',
+                playerVars: {
+                    autoplay: 0, // Auto-play the video on load
+                    controls: 0, // Show pause/play buttons in player
+                    showinfo: 0, // Hide the video title
+                    modestbranding: 1, // Hide the Youtube Logo
+                    fs: 1, // Hide the full screen button
+                    cc_load_policy: 1, // Hide closed captions
+                    iv_load_policy: 1, // Hide the Video Annotations
+                    start: 46,
+                    end: 60,
+                    loop: 0, // Run the video in a loop
                     autohide: 1, // Hide video controls when playing
                 },
                 events: {
