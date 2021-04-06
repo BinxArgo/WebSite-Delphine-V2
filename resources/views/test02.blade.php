@@ -41,9 +41,9 @@
             <!------------------------EXERCICE 01---------------------------------->
             <!--------------------------------------------------------------------->
             <p class="titleexo">1) Articles: complétez avec 'Un', 'Une', ou 'Des':</p>
-            <!--Video embeded UL---> 
-            <iframe width="560" height="315"  src="https://www.youtube.com/embed/Ssd3FKVOsnw?playlist=Ssd3FKVOsnw&loop=1&start=32&end=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           <br><br>
+            <!--Video embeded UL--->
+            <div id="player"></div>
+            <br><br>
             <!------OPTION 01----->
             <div class="exo-container">
                 <select name="" class="selects" id="quest01">
@@ -80,305 +80,12 @@
 
             <br><br><br>
 
-            <!--------------------------------------------------------------------->
-            <!------------------------EXERCICE 02---------------------------------->
-            <!--------------------------------------------------------------------->
-
-            <p class="titleexo">2) Complétez avec un article défini:</p>
-
-            <!------OPTION 01----->
-            <div class="exo-container">
-                <label for="quest01">J'aime</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">la</option>
-                    <option value="un">un</option>
-                    <option value="un">les</option>
-                    <option value="un">une</option>
-                    <option value="un">l'</option>
-                </select>
-                <label for="quest01">Vacances</label>
-            </div>
-            <br>
-            <!------OPTION 02----->
-            <div class="exo-container">
-                <label for="quest01">J'aime</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">la</option>
-                    <option value="un">un</option>
-                    <option value="un">les</option>
-                    <option value="un">l'</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">été</label>
-            </div>
-
-            <br>
-            <!------OPTION 03----->
-            <div class="exo-container">
-                <label for="quest01">J'aime</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">la</option>
-                    <option value="un">un</option>
-                    <option value="un">les</option>
-                    <option value="un">l'</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">camping</label>
-            </div>
-
-            <br>
-            <!------OPTION 04----->
-            <div class="exo-container">
-                <label for="quest01">J'aime</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">la</option>
-                    <option value="un">un</option>
-                    <option value="un">les</option>
-                    <option value="un">l'</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">nature</label>
-            </div>
-
-            <br><br><br>
-            <!--------------------------------------------------------------------->
-            <!------------------------EXERCICE 03---------------------------------->
-            <!--------------------------------------------------------------------->
-
-            <p class="titleexo">3) Completer les phrases:</p>
-
-            <!------OPTION 01----->
-            <div class="exo-container">
-                <label for="quest01">je vais</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">dans</option>
-                    <option value="un">par</option>
-                    <option value="un">au</option>
-                    <option value="un">à la</option>
-                    <option value="un">avec</option>
-                </select>
-                <label for="quest01">Paris.</label>
-            </div>
-            <br>
-
-            <!------OPTION 02----->
-            <div class="exo-container">
-                <label for="quest01">je vais</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">dans</option>
-                    <option value="un">par</option>
-                    <option value="un">au</option>
-                    <option value="un">chez</option>
-                    <option value="un">à</option>
-                    <option value="un">avec</option>
-                </select>
-                <label for="quest01">marché.</label>
-            </div>
-            <br>
-
-            <!------OPTION 03----->
-            <div class="exo-container">
-                <label for="quest01">je vais</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">dans</option>
-                    <option value="un">par</option>
-                    <option value="un">au</option>
-                    <option value="un">à la</option>
-                    <option value="un">avec</option>
-                </select>
-                <label for="quest01">piscine.</label>
-            </div>
-            <br>
-
-            <!------OPTION 04----->
-            <div class="exo-container">
-                <label for="quest01">je vais</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">dans</option>
-                    <option value="un">par</option>
-                    <option value="un">chez le</option>
-                    <option value="un">au</option>
-                    <option value="un">à</option>
-                    <option value="un">avec</option>
-                </select>
-                <label for="quest01">coiffeur.</label>
-            </div>
-            <br>
-
-            <br><br><br>
-            <!--------------------------------------------------------------------->
-            <!------------------------EXERCICE 04---------------------------------->
-            <!--------------------------------------------------------------------->
-
-            <p class="titleexo">4) Completer avec 'Un'ou 'Une' :</p>
-
-            <!------OPTION 01----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">homme</label>
-            </div>
-            <br>
-            <!------OPTION 02----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">fille</label>
-            </div>
-            <br>
-            <!------OPTION 03----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">maison</label>
-            </div>
-            <br>
-            <!------OPTION 04----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">piano</label>
-            </div>
-            <br>
-            <!------OPTION 05----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">chemin</label>
-            </div>
-            <br>
-            <!------OPTION 05----->
-            <div class="exo-container">
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">un</option>
-                    <option value="un">une</option>
-                </select>
-                <label for="quest01">oreille</label>
-            </div>
-            <br>
-
-            <br><br><br>
-            <!--------------------------------------------------------------------->
-            <!------------------------EXERCICE 05---------------------------------->
-            <!--------------------------------------------------------------------->
-
-            <p class="titleexo">5) Accorder les verbes :</p>
-
-            <!------OPTION 01----->
-            <div class="exo-container">
-                <label for="quest01">je</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">est</option>
-                    <option value="un">sommes</option>
-                    <option value="un">suis</option>
-                    <option value="un">sui</option>
-                    <option value="un">sont</option>
-                </select>
-                <label for="quest01">content.</label>
-            </div>
-            <br>
-            <!------OPTION 02----->
-            <div class="exo-container">
-                <label for="quest01">tu</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">fait</option>
-                    <option value="un">faisons</option>
-                    <option value="un">faites</option>
-                    <option value="un">fonts</option>
-                    <option value="un">fais</option>
-                </select>
-                <label for="quest01">les devoirs.</label>
-            </div>
-            <br>
-            <!------OPTION 03----->
-            <div class="exo-container">
-                <label for="quest01">ils</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">manges</option>
-                    <option value="un">mangez</option>
-                    <option value="un">mange</option>
-                    <option value="un">mangent</option>
-                    <option value="un">mangeons</option>
-                </select>
-                <label for="quest01">la pomme.</label>
-            </div>
-            <br>
-            <!------OPTION 04----->
-            <div class="exo-container">
-                <label for="quest01">nous</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">prend</option>
-                    <option value="un">prenez</option>
-                    <option value="un">entrons</option>
-                    <option value="un">prenons</option>
-                    <option value="un">prends</option>
-                </select>
-                <label for="quest01">le métro.</label>
-            </div>
-            <br>
-            <!------OPTION 05----->
-            <div class="exo-container">
-                <label for="quest01">vous</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">cueillez</option>
-                    <option value="un">mangez</option>
-                    <option value="un">chantez</option>
-                    <option value="un">lisez</option>
-                    <option value="un">marchez</option>
-                </select>
-                <label for="quest01">les livres.</label>
-            </div>
-            <br>
-            <!------OPTION 06----->
-            <div class="exo-container">
-                <label for="quest01">ils</label>
-                <select name="" class="selects" id="quest01">
-                    <option class="optlabel" value="">Options</option>
-                    <option value="un">cueillent</option>
-                    <option value="un">mangent</option>
-                    <option value="un">chantent</option>
-                    <option value="un">prenent</option>
-                    <option value="un">marchent</option>
-                </select>
-                <label for="quest01">des avions.</label>
-            </div>
-            <br>
             <!---End Container exercices--->
         </div>
         <br><br>
         <!-------Next exercice button------>
         <div class="buttonstarifs">
-            <button class="mainbuttonaction" style="margin-right">Suivant <img
-                    src="img/arrowbutton.png"></button>
+            <button class="mainbuttonaction" style="margin-right">Suivant <img src="img/arrowbutton.png"></button>
         </div>
 
         <footer>
@@ -386,6 +93,65 @@
         </footer>
     </div>
     </div>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '390',
+                width: '640',
+                videoId: 'Ssd3FKVOsnw',
+                playerVars: {
+                    autoplay: 1, // Auto-play the video on load
+                    controls: 0, // Show pause/play buttons in player
+                    showinfo: 0, // Hide the video title
+                    modestbranding: 1, // Hide the Youtube Logo
+                    fs: 1, // Hide the full screen button
+                    cc_load_policy: 1, // Hide closed captions
+                    iv_load_policy: 1, // Hide the Video Annotations
+                    start: 32,
+                    end: 42,
+                    loop: 1, // Run the video in a loop
+                    autohide: 1, // Hide video controls when playing
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    //'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        var done = false;
+
+        //function onPlayerStateChange(event) {
+           // if (event.data == YT.PlayerState.PLAYING && !done) {
+               // setTimeout(stopVideo, 6000);
+                //done = false;
+            //}
+        //}
+
+        function stopVideo() {
+            player.stopVideo();
+        }
+
+    </script>
 </body>
 
 <br><br><br>
