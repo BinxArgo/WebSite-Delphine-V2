@@ -60,6 +60,7 @@
 
 .test-container{
     padding-left: 100px;
+    padding: 30px;
 }
 
 .exo-container{
@@ -70,12 +71,21 @@
 .exo-container-checkbox{
     display: flex;
     flex-direction: row;
+    padding: 5px;
     align-items: center; 
     background-color: #006998;
-    width: 640px;
-    height: 27px;
+    width: auto;
+    max-width: 640px;
+    height: auto;
+    min-height: 27px;
     color: white;
     justify-content: space-around;
+}
+
+.video-container{
+    height: auto;
+    max-width: 640px;
+    min-height: 390px;
 }
 
 input[type=checkbox]{
@@ -96,6 +106,19 @@ label{
 .titleexo{
     color: #006998;
     text-decoration: underline;
+}
+
+.texttest-container{
+
+    width: auto;
+    max-width: 900px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.paragraphtext{
+     font-size: 15px;
+     
 }
 
 .selects{

@@ -48,6 +48,13 @@ Route::get('/test02', function () {
 
 });
 
+//Language level test part three
+Route::get('/test03', function () {
+    return view('test03');
+   
+
+});
+
 //Website Translations route
 Route::get('lang/{locale}', function ($locale) {
     session()->put('locale', $locale);

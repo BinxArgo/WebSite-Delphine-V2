@@ -42,7 +42,7 @@
             <!--------------------------------------------------------------------->
             <p class="titleexo">1) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
             <!--Video embeded UL--->
-            <div id="player01"></div>
+            <div class="video-container" id="player01"></div>
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
@@ -69,7 +69,7 @@
             <!--------------------------------------------------------------------->
             <p class="titleexo">2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
             <!--Video embeded UL--->
-            <div id="player02"></div>
+            <div class="video-container" id="player02"></div>
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
@@ -96,7 +96,7 @@
             <!--------------------------------------------------------------------->
             <p class="titleexo">3) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur?</p>
             <!--Video embeded UL--->
-            <div id="player03"></div>
+            <div class="video-container" id="player03"></div>
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
@@ -148,11 +148,10 @@
         function onYouTubeIframeAPIReady() {
             //VIDEO 01
             player = new YT.Player('player01', {
-                height: '390',
-                width: '640',
+                height: '100%',
+                width: '100%',
                 videoId: 'Ssd3FKVOsnw',
                 playerVars: {
-                    autoplay: 0, // Auto-play the video on load
                     controls: 0, // Show pause/play buttons in player
                     showinfo: 0, // Hide the video title
                     modestbranding: 1, // Hide the Youtube Logo
@@ -171,11 +170,10 @@
             });
             //VIDEO 02
             player = new YT.Player('player02', {
-                height: '390',
-                width: '640',
+                height: '100%',
+                width: '100%',
                 videoId: 'jDr0JFojEiE',
                 playerVars: {
-                    autoplay: 0, // Auto-play the video on load
                     controls: 0, // Show pause/play buttons in player
                     showinfo: 0, // Hide the video title
                     modestbranding: 1, // Hide the Youtube Logo
@@ -194,11 +192,10 @@
             });
             //VIDEO 03
             player = new YT.Player('player03', {
-                height: '390',
-                width: '640',
+                height: '100%',
+                width: '100%',
                 videoId: 'mjXiOEZUcHY',
                 playerVars: {
-                    autoplay: 0, // Auto-play the video on load
                     controls: 0, // Show pause/play buttons in player
                     showinfo: 0, // Hide the video title
                     modestbranding: 1, // Hide the Youtube Logo
