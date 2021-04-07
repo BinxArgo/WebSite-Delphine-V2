@@ -1,3 +1,3 @@
 <footer class="basicfooter">
-      <img src="img\horizontallogo.png" alt="horizontallogo">
+      <img src="img\horizontallogolg.png" alt="horizontallogo">
 </footer>

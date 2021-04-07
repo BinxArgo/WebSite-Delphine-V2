@@ -233,7 +233,7 @@
         <div class="buttonstarifs">
             <button class="mainbuttonaction" style="margin-right">Suivant <img src="img/arrowbutton.png"></button>
         </div>
-
+        <!---SECONDARY FOOTER----->
         <footer>
             @include('basicfooterlog')
         </footer>

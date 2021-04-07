@@ -55,6 +55,13 @@ Route::get('/test03', function () {
 
 });
 
+//Test result page
+Route::get('/resultpage', function () {
+    return view('resultpage');
+   
+
+});
+
 //Website Translations route
 Route::get('lang/{locale}', function ($locale) {
     session()->put('locale', $locale);

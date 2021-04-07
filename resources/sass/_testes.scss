@@ -43,9 +43,14 @@
 }
 
 .testpresent{
-    padding: 70px;
+    padding: 15px;
     text-align: center;
-                 
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    .description-result{
+        text-align: justify;
+    }          
 }
 
 #testTitle{
@@ -130,4 +135,65 @@ label{
     padding-left: 7px;
     padding-right: 7px;
     border-width:  2px;
+}
+
+//Result page elements
+
+.result-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    max-width: 609px;
+    height: auto;
+    max-height: 600px;
+    background-color: #FF6600;
+    color: white;
+    box-shadow: 10px 10px 0px #006998;
+    
+}
+@media screen and (max-width: 460px){
+    .result-container{
+        flex-direction: column;
+        
+    }
+    .resultdescription{
+        font-size: 15px;
+    }
+}
+
+.resultdescription{
+    font-size: 35px;
+}
+
+.freecourse-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px){
+    .contact-test{
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
+.inconEmail-test{
+    width: 39px;
+    height: 28px;
+    padding-right: 5px;
+    
+}
+
+.info-containerresult{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }

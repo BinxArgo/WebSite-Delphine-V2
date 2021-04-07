@@ -46,22 +46,22 @@
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 02----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 03----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 04----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br><br><br>
             <!--------------------------------------------------------------------->
@@ -73,22 +73,22 @@
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 02----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 03----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 04----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br><br><br>
             <!--------------------------------------------------------------------->
@@ -100,22 +100,22 @@
             <br><br>
             <!------OPTION 01----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 02----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 03----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
             <br>
             <!------OPTION 04----->
             <div class="exo-container-checkbox">
-                 <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
+                <input class="input-checkbox" type="checkbox"> Quisque at est eget mauris semper vestibulum
             </div>
 
             <br><br><br>
@@ -127,7 +127,7 @@
         <div class="buttonstarifs">
             <button class="mainbuttonaction" style="margin-right">Suivant <img src="img/arrowbutton.png"></button>
         </div>
-
+        <!---SECONDARY FOOTER----->
         <footer>
             @include('basicfooterlog')
         </footer>
@@ -225,10 +225,10 @@
         var done = false;
 
         //function onPlayerStateChange(event) {
-           // if (event.data == YT.PlayerState.PLAYING && !done) {
-               // setTimeout(stopVideo, 6000);
-                //done = false;
-            //}
+        // if (event.data == YT.PlayerState.PLAYING && !done) {
+        // setTimeout(stopVideo, 6000);
+        //done = false;
+        //}
         //}
 
         function stopVideo() {
