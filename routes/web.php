@@ -61,6 +61,12 @@ Route::get('/resultpage', function () {
    
 
 });
+//User profile space
+Route::get('/userprofile', function () {
+    return view('userprof');
+   
+
+});
 
 //Website Translations route
 Route::get('lang/{locale}', function ($locale) {

@@ -1,83 +1,85 @@
 /*HEADER AREA FOR ICONS LOGOUT & USER LOG*/
-.testheader{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     padding: 20px;
+.testheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 
-.logout{
+.logout {
     display: flex;
     flex-direction: row;
     height: 15px;
     align-items: center;
-   
 }
 
-.labellogout{
+.labellogout {
 
     color: #006998;
-
+    
 }
 
-/*Hide logout label on sm screens*/ 
-@media screen and (max-width: 320px){
-    #labellogout{
+/*Hide logout label on sm screens*/
+@media screen and (max-width: 320px) {
+    #labellogout {
         display: none;
     }
 }
 
 
-.userlogged{
+.userlogged {
     display: flex;
     flex-direction: row;
     height: 15px;
     align-items: center;
-   
+
 }
 
-.labelsaccounts{
+.labelsaccounts {
     padding-left: 10px;
     color: #006998;
+    font-size: 20px;
 }
 
-.testpresent{
+.testpresent {
     padding: 15px;
     text-align: center;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    .description-result{
+
+    .description-result {
         text-align: justify;
-    }          
+    }
 }
 
-#testTitle{
+#testTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.bannertest{
+.bannertest {
     width: 100%;
     padding-bottom: 50px;
 }
 
-.test-container{
+.test-container {
     padding-left: 100px;
     padding: 30px;
 }
 
-.exo-container{
+.exo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.exo-container-checkbox{
+
+.exo-container-checkbox {
     display: flex;
     flex-direction: row;
     padding: 5px;
-    align-items: center; 
+    align-items: center;
     background-color: #006998;
     width: auto;
     max-width: 640px;
@@ -87,20 +89,21 @@
     justify-content: space-around;
 }
 
-.video-container{
+.video-container {
     height: auto;
     max-width: 640px;
     min-height: 390px;
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
     border-radius: 50%;
 }
-.optlabel{
+
+.optlabel {
     color: #74929F;
 }
 
-label{
+label {
     padding-left: 5px;
     padding-right: 5px;
     color: #006998;
@@ -108,12 +111,12 @@ label{
 }
 
 
-.titleexo{
+.titleexo {
     color: #006998;
     text-decoration: underline;
 }
 
-.texttest-container{
+.texttest-container {
 
     width: auto;
     max-width: 900px;
@@ -121,25 +124,25 @@ label{
     padding: 10px;
 }
 
-.paragraphtext{
-     font-size: 15px;
-     
+.paragraphtext {
+    font-size: 15px;
+
 }
 
-.selects{
-   // display: flex;
+.selects {
+    // display: flex;
     flex-direction: column;
     border-color: #FF6600;
     border-radius: 25px;
     padding: 5px;
     padding-left: 7px;
     padding-right: 7px;
-    border-width:  2px;
+    border-width: 2px;
 }
 
 //Result page elements
 
-.result-container{
+.result-container {
     display: flex;
     align-items: center;
     margin: auto;
@@ -150,47 +153,51 @@ label{
     background-color: #FF6600;
     color: white;
     box-shadow: 10px 10px 0px #006998;
-    
+
 }
-@media screen and (max-width: 460px){
-    .result-container{
+
+@media screen and (max-width: 460px) {
+    .result-container {
         flex-direction: column;
-        
+
     }
-    .resultdescription{
+
+    .resultdescription {
         font-size: 15px;
     }
 }
 
-.resultdescription{
+.resultdescription {
     font-size: 35px;
 }
 
-.freecourse-container{
+.freecourse-container {
     display: flex;
     justify-content: center;
 }
 
-.contact-test{
+.contact-test {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
-@media screen and (max-width: 460px){
-    .contact-test{
+
+@media screen and (max-width: 460px) {
+    .contact-test {
         flex-direction: column;
         font-size: 10px;
     }
 }
-.inconEmail-test{
+
+.inconEmail-test {
     width: 39px;
     height: 28px;
     padding-right: 5px;
-    
+
 }
 
-.info-containerresult{
+.info-containerresult {
     display: flex;
     justify-content: center;
     font-weight: bold;
