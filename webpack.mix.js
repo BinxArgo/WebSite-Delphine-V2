@@ -30,6 +30,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/_basicfooterlog.scss', 'public/css')
     .sass('resources/sass/_testes.scss', 'public/css')
     .sass('resources/sass/_userprof.scss', 'public/css')
+    .sass('resources/sass/_admin.scss', 'public/css')
     
   
 

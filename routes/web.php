@@ -67,6 +67,13 @@ Route::get('/userprofile', function () {
    
 
 });
+//Admin dashboard
+Route::get('/admin', function () {
+    return view('admin');
+   
+
+});
+
 
 //Website Translations route
 Route::get('lang/{locale}', function ($locale) {

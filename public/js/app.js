@@ -19379,6 +19379,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/_admin.scss":
+/*!************************************!*\
+  !*** ./resources/sass/_admin.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/_basicfooterlog.scss":
 /*!*********************************************!*\
   !*** ./resources/sass/_basicfooterlog.scss ***!
@@ -19567,9 +19578,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ./resources/sass/_header.scss ./resources/sass/_navbar.scss ./resources/sass/_section.scss ./resources/sass/_footer.scss ./resources/sass/_slideshow.scss ./resources/sass/_jobs.scss ./resources/sass/_bio.scss ./resources/sass/_methode.scss ./resources/sass/_tarifs.scss ./resources/sass/_contact.scss ./resources/sass/_politiqueConf.scss ./resources/sass/_modaltest.scss ./resources/sass/_basicfooterlog.scss ./resources/sass/_testes.scss ./resources/sass/_userprof.scss ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ./resources/sass/_header.scss ./resources/sass/_navbar.scss ./resources/sass/_section.scss ./resources/sass/_footer.scss ./resources/sass/_slideshow.scss ./resources/sass/_jobs.scss ./resources/sass/_bio.scss ./resources/sass/_methode.scss ./resources/sass/_tarifs.scss ./resources/sass/_contact.scss ./resources/sass/_politiqueConf.scss ./resources/sass/_modaltest.scss ./resources/sass/_basicfooterlog.scss ./resources/sass/_testes.scss ./resources/sass/_userprof.scss ./resources/sass/_admin.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19590,7 +19601,8 @@ __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_polit
 __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_modaltest.scss */"./resources/sass/_modaltest.scss");
 __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_basicfooterlog.scss */"./resources/sass/_basicfooterlog.scss");
 __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_testes.scss */"./resources/sass/_testes.scss");
-module.exports = __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_userprof.scss */"./resources/sass/_userprof.scss");
+__webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_userprof.scss */"./resources/sass/_userprof.scss");
+module.exports = __webpack_require__(/*! C:\laragon\www\WebSite-Delphine-V2\resources\sass\_admin.scss */"./resources/sass/_admin.scss");
 
 
 /***/ })

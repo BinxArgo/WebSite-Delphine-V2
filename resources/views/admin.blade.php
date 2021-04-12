@@ -9,13 +9,13 @@
     <!-- Calendly link widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <title>Espace Utilisateur</title>
+    <title>Admin</title>
 </head>
 
 <body>
 
     <div class="containerhome">
-        <!-----header Espace Utilisateur-------->
+        <!-----header Espace admin-------->
         <div class="testheader">
             <div class="logout">
                 <img src="img\tests\logout.png" alt="logoutIcon">
@@ -23,31 +23,22 @@
             </div>
             <div class="userlogged">
                 <img src="img\tests\usericon.png" alt="userIcon">
-                <h6 class="labelsaccounts">User name</h6>
+                <h6 class="labelsaccounts">User</h6>
             </div>
         </div>
-        <!--------TITLE USER SPACE-------------------------->
-        <h1 id="testTitle">Espace Utilisateur</h1>
+        <!--------TITLE ADMIN SPACE-------------------------->
+        <h1 id="testTitle">Gestion des utilisateurs</h1>
 
         <div class="testpresent">
 
             <!-------TESTE PRESENTATION PARAGRAPH--------->
             <div class="titleexo">
-                <p>Réserver vos séances</p>
+                <p>Gestion de séances</p>
             </div>
-            <!--------CALENDRLY API CALENDAR BOOKING CLASS------>
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/coja-jacques"
-                style="min-width:320px;height:630px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
+            <!--------ADMIN Google calendar------>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=Y29qYS5qYWNxdWVzQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NDQwNDk2MTU2ODEyODgyNDk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y2xhc3Nyb29tMTE2MzE2OTY4MTAwODU2MjUyOTkyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%237CB342&amp;color=%23c26401&amp;color=%23202124&amp;color=%230B8043&amp;mode=MONTH" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             <br>
-            <!-------USER RESOURCES BUTTON-----> 
-            <a class="linkresources" href="https://drive.google.com/drive/folders/1ZVhr1XwjylMlBt-L2aiaRDnaIPcyULMt?usp=sharing" target="_blank">
-            <button class="resourcesbtn" >
-               <img class="resourcesiconimg" src="img/tests/resourcesicon.png" alt="resourcesicon">Resources et partages
-            </button>
-            </a> 
+ 
         </div>
         <br>
 
