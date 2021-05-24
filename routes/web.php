@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +23,33 @@ Route::get('/', function () {
     return view('bio');
     return view('footer');
     return view('modaltest');
+    return view('inscriptmodal');
 });
+
+
+
+
+//Logout
+route::get('/auth/logout',[MainController::class, 'logout'])->name('auth.logout');
+
+//Middleware Logout
+route::group(['middleware'=>['AuthCheck']], function(){
+    //Dashboard page 
+    Route::get('/admin/dashboard',[MainController::class, 'dashboard']);
+    //Login
+    Route::get('/auth/login',[MainController::class, 'login'])->name('auth.login');
+    //Register
+    Route::get('/auth/register',[MainController::class, 'register'])->name('auth.register');
+});
+
+
+
+//Save
+Route::post('/auth/save',[MainController::class, 'save'])->name('auth.save');
+
+
+//Login 
+Route::post('/auth/check',[MainController::class, 'check'])->name('auth.check');
 
 //Confidentiality policy page
 Route::get('/politique-de-confidentialite', function () {
@@ -67,6 +94,9 @@ Route::get('/userprofile', function () {
    
 
 });
+
+
+
 //Admin dashboard
 Route::get('/admin', function () {
     return view('admin');

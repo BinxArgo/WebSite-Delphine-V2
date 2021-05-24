@@ -36,7 +36,7 @@
                 <p>Gestion de séances</p>
             </div>
             <!--------ADMIN Google calendar------>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=Y29qYS5qYWNxdWVzQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NDQwNDk2MTU2ODEyODgyNDk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y2xhc3Nyb29tMTE2MzE2OTY4MTAwODU2MjUyOTkyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%237CB342&amp;color=%23c26401&amp;color=%23202124&amp;color=%230B8043&amp;mode=MONTH" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe class="google-calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=Y29qYS5qYWNxdWVzQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NDQwNDk2MTU2ODEyODgyNDk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y2xhc3Nyb29tMTE2MzE2OTY4MTAwODU2MjUyOTkyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%237CB342&amp;color=%23c26401&amp;color=%23202124&amp;color=%230B8043&amp;mode=MONTH" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             <br>
  
         </div>
